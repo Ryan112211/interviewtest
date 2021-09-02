@@ -1,0 +1,33 @@
+
+
+.cardimage img{
+    width: 300px;
+    height: 320px;
+
+
+}
+.cardbody{
+   border:2px solid white;
+   height: 400px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+
+  
+  
+   
+  
+}
+.cardbody:hover{
+    cursor: pointer;
+}
+.cardheader{
+    color:white;
+}
+.carddesc{
+    color:white;
+    font-size: 4vh;
+}

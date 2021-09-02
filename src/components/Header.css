@@ -1,0 +1,91 @@
+
+.header{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position:sticky;
+    top:0;
+    transition: all ease-in 1s;
+    
+    
+}
+.darkheader{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    position:sticky;
+    top:0;
+    transition: all ease-in 1s;
+    
+}
+@keyframes example {
+    0%   {background-image: url("https://image.freepik.com/free-vector/abstract-website-banner-with-modern-shapes_1361-1738.jpg");background-repeat: no-repeat;background-size: cover;}
+    
+  }
+/* .header:hover{
+
+
+background-image: url("https://image.shutterstock.com/image-vector/popcorn-logo-label-symbol-sign-600w-1919550788.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+
+} */
+.header img{
+    width: 100px;
+    height: 100%;
+    
+}
+/* .darkheader:hover{
+
+
+    background-image: url("https://image.shutterstock.com/image-vector/popcorn-logo-label-symbol-sign-600w-1919550788.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+    } */
+    .darkheader img{
+        width: 100px;
+        height: 100%;
+        
+    }
+.list{
+    height: 100px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex:4;
+    cursor: pointer;
+    align-items: center;
+    transition: all ease-in 0.5s;
+   
+   
+    
+}
+.darklist{
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex:4;
+    cursor: pointer;
+    align-items: center;
+    transition: all ease-in 0.5s;
+   
+   
+    
+}
+/* .list:hover{
+    color:white
+
+
+} */
